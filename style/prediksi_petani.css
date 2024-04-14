@@ -16,7 +16,8 @@ body {
 .header-img {
    width: 171px;
    height: auto;
-   margin-left: 120px;
+   margin-left: -30px;
+   display: inline-block;
 }
 
 .navbar-menu {
@@ -27,7 +28,7 @@ body {
 
 .navbar {
    display: flex;
-   margin-right: 120px;
+   margin-right: -30px;
 }
 
 .nav-menu {
@@ -43,9 +44,9 @@ body {
 .container-card {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   gap: 20px;
    justify-content: center;
-   margin: 30px;
+   gap: 30px;
+   margin: -30px;
 }
 
 .card-inside {
@@ -78,5 +79,5 @@ h3 {
 
 .greeting-container {
    margin: 30px;
-   margin-left: 120px;
+   margin-left: -30px;
 }
