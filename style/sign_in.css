@@ -26,8 +26,8 @@ body {
 }
 
 .container .welcome-text {
-    display: block; /* Add this line */
-    margin-bottom: 20px; /* Adjust as needed */
+    display: block;
+    margin-bottom: 20px;
 }
 
 .container h1 {
@@ -81,3 +81,13 @@ body {
     text-decoration: underline;
 }
 
+.checkbox-wrapper{
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    margin-right: 5px; /* Adjust spacing between checkbox and label */
+}
