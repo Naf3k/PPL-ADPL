@@ -1,0 +1,31 @@
+body{
+    color:white;
+    background-color:#1F3B2C;
+    font-family: "Myanmar Khyay";
+}
+
+.header-text-nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    float:left;
+    list-style-type:none;
+    column-gap: 57px;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display:block;
+    padding:1px 1px;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: #FBBC04;
+}
+
