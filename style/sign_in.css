@@ -83,11 +83,11 @@ body {
 
 .checkbox-wrapper{
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Align items horizontally */
-    margin-bottom: 10px; /* Adjust margin as needed */
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 10px; 
 }
 
 .checkbox-wrapper input[type="checkbox"] {
-    margin-right: 5px; /* Adjust spacing between checkbox and label */
+    margin-right: 5px; 
 }
