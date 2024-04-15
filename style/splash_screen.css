@@ -49,16 +49,16 @@ nav h1{
 
 @media  screen and (max-width: 576px){
     nav ul{
-        position: absolute;
+        position:absolute;
         right: 0;
-        height: 100vh;
-        width: 40%;
+        height: 60vh;
+        
+        width: 43%;
         flex-direction: column;
         top: 0;
         justify-content: space-evenly;
         align-items: center;
         z-index: -1;
-        transform: translate(100%);
         transition: all 1s;
     }
 
@@ -67,7 +67,7 @@ nav h1{
     }
 
     nav ul.slide{
-        transform: translateX(0);
+        transform: translateX(100%);
     }
 }
 
@@ -88,6 +88,7 @@ nav h1{
     opacity: 0;
     cursor: pointer;
     z-index: 2;
+
 }
 
 .menu-toggle span{
